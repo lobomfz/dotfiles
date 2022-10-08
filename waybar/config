@@ -1,0 +1,112 @@
+[
+	{
+		"layer": "top",
+		"output": "DP-3",
+		"position": "bottom",
+		"height": 42,
+		"width": 2560,
+		"modules-left": [
+			"wlr/taskbar"
+		],
+		"modules-center": [],
+		"modules-right": [
+			"pulseaudio",
+			"cpu",
+			"memory",
+			"tray",
+			"clock"
+		],
+		"wlr/taskbar": {
+			"icon-size": 38,
+			"on-click": "minimize-raise",
+			"on-click-middle": "close"
+		},
+		"tray": {
+			"icon-size": 22,
+			"spacing": 10
+		},
+		"clock": {
+			"interval": 30,
+			"format": "{:%d/%m %H:%M}"
+		},
+		"cpu": {
+			"format": "{usage}% "
+		},
+		"memory": {
+			"format": "{}% "
+		},
+		"pulseaudio": {
+			"format": "{volume}% {icon}",
+			"format-bluetooth": "{volume}% {icon}",
+			"format-muted": "",
+			"format-icons": {
+				"headphones": "",
+				"handsfree": "",
+				"headset": "",
+				"phone": "",
+				"portable": "",
+				"car": "",
+				"default": [
+					"",
+					""
+				]
+			},
+			"on-click": "pavucontrol"
+		}
+	},
+	{
+		"layer": "top",
+		"output": "DP-1",
+		"position": "bottom",
+		"height": 42,
+		"width": 1920,
+		"modules-left": [
+			"wlr/taskbar"
+		],
+		"modules-center": [],
+		"modules-right": [
+			"pulseaudio",
+			"cpu",
+			"memory",
+			"tray",
+			"clock"
+		],
+		"wlr/taskbar": {
+			"icon-size": 38,
+			"on-click": "minimize-raise",
+			"on-click-middle": "close"
+		},
+		"tray": {
+			"icon-size": 22,
+			"spacing": 10
+		},
+		"clock": {
+			"interval": 30,
+			"format": "{:%d/%m %H:%M}"
+		},
+		"cpu": {
+			"format": "{usage}% "
+		},
+		"memory": {
+			"format": "{}% "
+		},
+		"pulseaudio": {
+			"format": "{volume}% {icon}",
+			"format-bluetooth": "{volume}% {icon}",
+			"format-muted": "",
+			"format-icons": {
+				"headphones": "",
+				"handsfree": "",
+				"headset": "",
+				"phone": "",
+				"portable": "",
+				"car": "",
+				"default": [
+					"",
+					""
+				]
+			},
+			"on-click": "pavucontrol"
+		}
+	}
+]
